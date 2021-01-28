@@ -1,0 +1,9 @@
+.hello{
+    /* background:url(https://mcdn.wallpapersafari.com/medium/58/8/JMEr89.jpg) fixed; */
+    background-size: cover;
+}
+
+.padTop{
+    padding-bottom: 20px;
+    padding-top: 50px;
+}

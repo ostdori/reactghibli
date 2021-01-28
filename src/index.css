@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;0,700;1,300&display=swap');
+
+
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 250, 250) !important;
+  font-family: 'Averia Libre',Montserrat, Cursive !important;
+
+}
+  .ui.inverted.top.fixed.menu {
+    background-image: linear-gradient(
+      135deg,
+      rgb(241, 219, 20) 0%,
+      rgb(93, 149, 196) 69%,
+      rgb(196, 93, 52) 89%
+    ) !important;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+} */
